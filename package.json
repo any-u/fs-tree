@@ -1,5 +1,5 @@
 {
-  "name": "fs-tree",
+  "name": "@any-u/fs-tree",
   "version": "0.0.1",
   "description": "Display the tree structure in the terminal",
   "main": "dist/index.js",
