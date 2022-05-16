@@ -1,8 +1,16 @@
 {
   "name": "fs-tree",
   "version": "0.0.1",
+  "description": "Display the tree structure in the terminal",
   "main": "dist/index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/any-u/fs-tree.git"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rimraf dist && tsup src/index.ts --format cjs esm --dts"
   },
